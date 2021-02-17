@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>dev.voke.rswiki</string>
+	<key>category</key>
+	<string>Internet</string>
+	<key>connections</key>
+	<dict>
+		<key>508BD50F-120A-43A4-91ED-2D90EA49BADF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>15FF1D36-5F4F-4CCE-9945-2571483BC9CD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Owen Voke (@owenvoke)</string>
+	<key>description</key>
+	<string>Search the RuneScape Wiki</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>RuneScape Wiki</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>rs</string>
+				<key>subtext</key>
+				<string>Searching docs for "{query}"...</string>
+				<key>text</key>
+				<string>Search the RuneScape Wiki</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>508BD50F-120A-43A4-91ED-2D90EA49BADF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://runescape.wiki/w/Special:Search?search={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>15FF1D36-5F4F-4CCE-9945-2571483BC9CD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>15FF1D36-5F4F-4CCE-9945-2571483BC9CD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>565</integer>
+			<key>ypos</key>
+			<integer>55</integer>
+		</dict>
+		<key>508BD50F-120A-43A4-91ED-2D90EA49BADF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>385</integer>
+			<key>ypos</key>
+			<integer>55</integer>
+		</dict>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/owenvoke/alfred-runescape-wiki</string>
+</dict>
+</plist>
