@@ -11,6 +11,10 @@ Via Alfred
 
 Download the Alfred file from the [Releases](https://github.com/owenvoke/alfred-runescape-wiki/releases).
 
+Via Alfred Custom Search
+
+Open the following link in your browser: [alfred://customsearch/RuneScape%20Wiki/rs/utf8/nospace/https%3A%2F%2Frunescape.wiki%2Fw%2FSpecial%3ASearch%3Fsearch%3D%7Bquery%7D][]
+
 ## Usage
 
 This workflow provides a single command to search the RuneScape Wiki:
